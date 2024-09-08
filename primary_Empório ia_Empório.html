@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consultório veterinário especializado em cães e gatos, oferecendo cuidados de alta qualidade.">
+    <title>Empório Animal - Dr. [Seu Nome]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #5ba4a4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #5ba4a4;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services, .testimonials, .contact {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        form button {
+            background-color: #5ba4a4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #468a8a;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Empório Animal - Dr. [Seu Nome]</h1>
+    <p>Cuidando dos seus cães e gatos com amor e dedicação</p>
+</header>
+
+<nav>
+    <a href="#about">Sobre</a>
+    <a href="#services">Serviços</a>
+    <a href="#testimonials">Depoimentos</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<div class="container">
+
+    <!-- Sobre -->
+    <section id="about">
+        <h2>Sobre o Dr. [Seu Nome]</h2>
+        <p>Sou médico veterinário com [anos de experiência] e uma paixão por cuidar de cães e gatos. No Empório Animal, minha missão é oferecer cuidados personalizados e de alta qualidade para garantir a saúde e bem-estar dos seus animais de estimação.</p>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services" class="services">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Consultas veterinárias</li>
+            <li>Vacinação</li>
+            <li>Exames laboratoriais</li>
+            <li>Cirurgias</li>
+            <li>Tratamento preventivo e cuidados especializados</li>
+        </ul>
+        <p><strong>Promoção:</strong> Desconto de 10% na primeira consulta para novos clientes!</p>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="testimonials" class="testimonials">
+        <h2>Depoimentos de Clientes</h2>
+        <blockquote>
+            <p>"O Dr. [Seu Nome] é extremamente atencioso e cuidadoso. Meu cachorro sempre recebe o melhor tratamento!" - Ana</p>
+        </blockquote>
+        <blockquote>
+            <p>"Excelente atendimento! O Empório Animal é de confiança, recomendo a todos que possuem pets." - João</p>
+        </blockquote>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact">
+        <h2>Agende sua Consulta</h2>
+        <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Endereço: Rua Exemplo, 123 - Bairro Exemplo</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: contato@emporioanimal.com</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2024 Empório Animal. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
